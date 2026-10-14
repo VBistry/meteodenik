@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">MeteoDenik</string>
+    <string name="uvodni_text">Meteo deník - Vojta Bistrý</string>
+    <string name="text_po_kliknuti">Dnes bylo 21 °C a jasno.</string>
+    <string name="akce_zmen_text">Zapsat dnešní počasí.</string>
+    <string name="bmi_vypocet">Vypocitej mi BMI</string>
+    <string name="bmi_vysledek">BMI: %1$.1f</string>
+    <string name="bmi_chyba">Zadej platná čísla</string>
+    <string name="bmi_vyska">Zadej svoji vysku v cm</string>
+    <string name="bmi_vaha">Zadej svoji vahu v kg</string>
 </resources>
