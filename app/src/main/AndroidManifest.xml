@@ -23,6 +23,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".DetailMestaActivity"
+            android:exported="false"
+            android:label="@string/title_activity_detail_mesta"
+            android:theme="@style/Theme.MeteoDenik"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>

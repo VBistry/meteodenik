@@ -8,4 +8,15 @@
     <string name="bmi_chyba">Zadej platná čísla</string>
     <string name="bmi_vyska">Zadej svoji vysku v cm</string>
     <string name="bmi_vaha">Zadej svoji vahu v kg</string>
+    <string name="title_activity_detail_mesta">DetailMestaActivity</string>
+
+
+    <string name="otevri_detail">Otevřít detail města</string>
+    <string name="mesto_nezname">Neznámé město</string>
+    <string name="sdilet_zaznam">Sdílet záznam</string>
+    <string name="sdileny_text">%1$s: %2$.1f °C — zapsáno v MeteoDeníku</string>
+    <string name="teplota_format">%1$.1f °C</string>
+    <string name="teplota_chybi">Teplota není k dispozici</string>
+    <string name="poslat_zpravu">Zapsat záznam</string>
+
 </resources>
