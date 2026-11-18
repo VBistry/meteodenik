@@ -55,4 +55,8 @@
         <item quantity="one">%1$d city</item>
         <item quantity="other">%1$d cities</item>
     </plurals>
+
+    <!-- Exercise 7.6: fixed broken screen -->
+    <string name="debug_pocet_mest">Number of cities: %1$d</string>
+    <string name="debug_teplota_pozdeji">Temperature will be added in lesson 11</string>
 </resources>

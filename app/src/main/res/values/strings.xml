@@ -61,4 +61,8 @@
         <item quantity="many">%1$d města</item>
         <item quantity="other">%1$d měst</item>
     </plurals>
+
+    <!-- Cvičení 7.6: opravená rozbitá obrazovka -->
+    <string name="debug_pocet_mest">Počet měst: %1$d</string>
+    <string name="debug_teplota_pozdeji">Teplotu doplníme v lekci 11</string>
 </resources>
