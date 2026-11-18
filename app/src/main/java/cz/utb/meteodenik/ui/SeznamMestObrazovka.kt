@@ -12,6 +12,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.pluralStringResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import cz.utb.meteodenik.DetailMestaActivity
@@ -25,10 +26,15 @@ fun SeznamMestObrazovka() {
 
     Scaffold { insety ->
         Column(modifier = Modifier.padding(insety).padding(16.dp)) {
+            val pocet = UKAZKOVA_MESTA.size
             Text(
-                text = stringResource(R.string.app_name),
+                text = stringResource(
+                    R.string.seznam_titulek_pocet,
+                    pluralStringResource(R.plurals.pocet_zaznamu, pocet, pocet)
+                ),
                 style = MaterialTheme.typography.headlineSmall
             )
+            PolohaKarta(onPolohaPovolena = {})
             UKAZKOVA_MESTA.forEach { mesto ->
                 Column(
                     modifier = Modifier

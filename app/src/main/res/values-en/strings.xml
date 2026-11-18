@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Weather Diary</string>
+    <string name="uvodni_text">Weather diary - Vojta Bistrý</string>
+    <string name="text_po_kliknuti">Today it was 21 °C and clear.</string>
+    <string name="akce_zmen_text">Record today\'s weather.</string>
+    <string name="bmi_vypocet">Calculate my BMI</string>
+    <string name="bmi_vysledek">BMI: %1$.1f</string>
+    <string name="bmi_chyba">Enter valid numbers</string>
+    <string name="bmi_vyska">Enter your height in cm</string>
+    <string name="bmi_vaha">Enter your weight in kg</string>
+    <string name="title_activity_detail_mesta">City detail</string>
+
+    <string name="otevri_detail">Open city detail</string>
+    <string name="mesto_nezname">Unknown city</string>
+    <string name="sdilet_zaznam">Share record</string>
+    <string name="sdileny_text">%1$s: %2$.1f °C — recorded in Weather Diary</string>
+    <string name="teplota_format">%1$.1f °C</string>
+    <string name="teplota_chybi">Temperature not available</string>
+    <string name="poslat_zpravu">Add record</string>
+    <string name="poloha_zjistit">Find my location</string>
+    <string name="poloha_vysvetleni">If you allow approximate location, Weather Diary finds the city you are in and shows you its weather — no need to look it up in the list. We don\'t need your exact address; the area within a few kilometres is enough.</string>
+    <string name="poloha_pokracovat">Continue</string>
+    <string name="poloha_povolena">Location is allowed</string>
+    <string name="poloha_bez_opravneni">The system will not ask again. Without location permission, pick the city yourself, or allow location in Settings.</string>
+    <string name="otevrit_nastaveni">Open settings</string>
+    <string name="poloha_souradnice">You are at %1$.4f, %2$.4f</string>
+    <string name="poloha_neznama">Your phone does not know your location yet. Try again in a moment.</string>
+    <string name="poloha_nacist_znovu">Load location again</string>
+
+    <string name="seznam_titulek_pocet">My cities — %1$s</string>
+    <string name="detail_souhrn">%1$s has exactly %2$.1f °C</string>
+    <plurals name="pocet_zaznamu">
+        <item quantity="one">%1$d record</item>
+        <item quantity="other">%1$d records</item>
+    </plurals>
+</resources>

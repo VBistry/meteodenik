@@ -8,7 +8,7 @@
     <string name="bmi_chyba">Zadej platná čísla</string>
     <string name="bmi_vyska">Zadej svoji vysku v cm</string>
     <string name="bmi_vaha">Zadej svoji vahu v kg</string>
-    <string name="title_activity_detail_mesta">DetailMestaActivity</string>
+    <string name="title_activity_detail_mesta">Detail města</string>
 
 
     <string name="otevri_detail">Otevřít detail města</string>
@@ -18,5 +18,24 @@
     <string name="teplota_format">%1$.1f °C</string>
     <string name="teplota_chybi">Teplota není k dispozici</string>
     <string name="poslat_zpravu">Zapsat záznam</string>
+    <string name="poloha_zjistit">Zjistit polohu</string>
+    <string name="poloha_vysvetleni">Když povolíte přibližnou polohu, MeteoDeník sám pozná, ve kterém městě právě jste, a ukáže vám jeho počasí — nemusíte ho hledat v seznamu. Přesnou adresu nepotřebujeme, stačí okolí na pár kilometrů.</string>
+    <string name="poloha_pokracovat">Pokračovat</string>
+    <string name="poloha_povolena">Poloha je povolena</string>
+    <string name="poloha_bez_opravneni">Systém se už nezeptá. Bez oprávnění k poloze vyberte město ručně, nebo polohu povolte v Nastavení.</string>
+    <string name="otevrit_nastaveni">Otevřít nastavení</string>
+    <string name="poloha_souradnice">Jste na %1$.4f, %2$.4f</string>
+    <string name="poloha_neznama">Telefon zatím vaši polohu nezná. Zkuste to za chvíli znovu.</string>
+    <string name="poloha_nacist_znovu">Načíst polohu znovu</string>
+
+    <!-- Lekce 06, cvičení 6.1 -->
+    <string name="seznam_titulek_pocet">Moje města — %1$s</string>
+    <string name="detail_souhrn">%1$s má právě %2$.1f °C</string>
+    <plurals name="pocet_zaznamu">
+        <item quantity="one">%1$d záznam</item>
+        <item quantity="few">%1$d záznamy</item>
+        <item quantity="many">%1$d záznamu</item>
+        <item quantity="other">%1$d záznamů</item>
+    </plurals>
 
 </resources>
