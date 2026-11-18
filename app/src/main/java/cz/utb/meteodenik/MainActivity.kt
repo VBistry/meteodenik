@@ -7,7 +7,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.core.content.ContextCompat
-import cz.utb.meteodenik.ui.SeznamMestObrazovka
+import cz.utb.meteodenik.ui.MestaObrazovka
 import cz.utb.meteodenik.ui.theme.MeteoDenikTheme
 
 private const val TAG = "Cyklus"
@@ -22,7 +22,11 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         Log.d(TAG, "MainActivity  onCreate   (savedInstanceState = $savedInstanceState)")
         enableEdgeToEdge()
-        setContent { MeteoDenikTheme { SeznamMestObrazovka() } }
+        setContent {
+            MeteoDenikTheme {
+                MestaObrazovka()
+            }
+        }
     }
 
     override fun onStart() {
