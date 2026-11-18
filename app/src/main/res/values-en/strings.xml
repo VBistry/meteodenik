@@ -42,4 +42,8 @@
     <string name="mesto_teplota">%1$.1f °C</string>
     <string name="mesto_teplota_neznama">Temperature not known yet</string>
     <string name="mesto_avatar_popis">City badge</string>
+
+    <!-- Exercise 7.1: business card -->
+    <string name="vizitka_email_popis">Email: %1$s</string>
+    <string name="vizitka_avatar_popis">Photo: %1$s</string>
 </resources>
