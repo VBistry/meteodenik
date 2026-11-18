@@ -50,4 +50,15 @@
     <!-- Cvičení 7.1: vizitková karta -->
     <string name="vizitka_email_popis">E-mail: %1$s</string>
     <string name="vizitka_avatar_popis">Fotka: %1$s</string>
+
+    <!-- Cvičení 7.2: mazání, duplicity, počet -->
+    <string name="mesto_duplikat">Toto město už v seznamu máte.</string>
+    <string name="mesto_smazat">Smazat</string>
+    <string name="mesto_smazat_popis">Smazat město %1$s</string>
+    <plurals name="mesta_pocet">
+        <item quantity="one">%1$d město</item>
+        <item quantity="few">%1$d města</item>
+        <item quantity="many">%1$d města</item>
+        <item quantity="other">%1$d měst</item>
+    </plurals>
 </resources>
